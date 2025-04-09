@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC Tech Solutions - Home</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" width="80px" alt="">
+                <h1>CC Tech Solutions</h1>
+            </div>
+            <div class="clock-container" id="clock"></div>
+            <button class="theme-toggle" id="themeToggle">Switch Theme</button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Innovative Solutions for Modern Businesses</h2>
+            <p>Transforming ideas into reality with cutting-edge technology</p>
+            <a href="services.html" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <div class="flex-container">
+                <div class="main-content">
+                    <h2>Welcome to CC Tech Solutions</h2>
+                    <p>At CC Tech Solutions, we believe in leveraging technology to solve complex business challenges. Our team of experts is dedicated to providing innovative solutions that drive growth and efficiency.</p>
+                    <p>With over a decade of experience in the industry, we've helped hundreds of businesses transform their operations through strategic technology implementation.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-rocket"></i>
+                            <h3>Fast Delivery</h3>
+                            <p>Quick turnaround on all projects without compromising quality.</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Secure Solutions</h3>
+                            <p>Top-notch security measures implemented in all our services.</p>
+                        </div>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="sidebar-widget">
+                        <h3>Latest News</h3>
+                        <ul>
+                            <li>CC Tech Solutions expands service offerings</li>
+                            <li>New partnership announcement coming soon</li>
+                            <li>Client success story: 200% ROI achieved</li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-widget">
+                        <h3>Testimonial</h3>
+                        <blockquote>
+                            "CC Tech Solutions transformed our business processes, resulting in significant cost savings and improved customer satisfaction."
+                            <cite>- Wisdom Mwewa, CEO of Eventide Corp</cite>
+                        </blockquote>
+                    </div>
+                </aside>
+            </div>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+              <h3 class="question">What is this website about?</h3>
+              <p class="answer">This is a demo project for learning web development.</p>
+            </div>
+            
+            <div class="faq-item">
+              <h3 class="question">How can I contribute?</h3>
+              <p class="answer">You can contribute by submitting pull requests or opening issues on GitHub.</p>
+            </div>
+            
+            <div class="faq-item">
+              <h3 class="question">What technologies are used in this project?</h3>
+              <p class="answer">This project uses HTML, CSS, and JavaScript to demonstrate basic web development principles.</p>
+            </div>
+            
+            <div class="faq-item">
+              <h3 class="question">Is this project open source?</h3>
+              <p class="answer">Yes! The entire source code is available under an MIT license.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CC Tech Solutions. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('nav-active');
+            document.querySelector('.burger').classList.toggle('toggle');
+        });
+    </script>
+    <script src="script.js" defer></script>
+</body>
+</html>
