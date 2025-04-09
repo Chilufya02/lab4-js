@@ -165,7 +165,7 @@ nav {
 
 /* Hero Section */
 .hero {
-    background-image: url('/images/hero-bg.jpg');
+    background-image: url('images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     color: #4a6cf7;
@@ -188,7 +188,7 @@ nav {
 
 /* Page Headers */
 .page-header-s {
-    background-image: url("/images/services.jpg");
+    background-image: url("images/services.jpg");
     background-color: var(--primary-color);
     color: white;
     text-align: center;
@@ -196,7 +196,7 @@ nav {
 }
 
 .page-header-c {
-    background-image: url("/images/contact-us.png");
+    background-image: url("images/contact-us.png");
     background-color: var(--primary-color);
     color: white;
     text-align: center;
